@@ -73,7 +73,7 @@ class AppController extends Controller
             
         ]);
         
-        //$this->Auth->allow(['display', 'view', 'add','home']);
+        $this->Auth->allow([ 'add']);
         
         /*
          * Enable the following component for recommended CakePHP security settings.
